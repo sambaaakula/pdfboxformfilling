@@ -13,7 +13,7 @@ import org.apache.pdfbox.pdmodel.interactive.form.PDField;
 /*
   Akula Sambasiva Rao
 */
-public class Parser {
+public class PDFFormFiller {
 	public static void main(String[] args) throws IOException {
 		LinkedHashMap<String, String> inputFieldNames = new LinkedHashMap<String, String>();
 		inputFieldNames.put("Given Name Text Box", "Sambasiva Rao Akula");
